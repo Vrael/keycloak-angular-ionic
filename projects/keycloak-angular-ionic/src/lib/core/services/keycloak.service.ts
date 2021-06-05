@@ -13,7 +13,7 @@ import { Subject, from } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 // Workaround for rollup library behaviour, as pointed out on issue #1267 (https://github.com/rollup/rollup/issues/1267).
-import * as Keycloak_ from 'keycloak-js';
+import * as Keycloak_ from 'keycloak-ionic';
 export const Keycloak = Keycloak_;
 
 import {

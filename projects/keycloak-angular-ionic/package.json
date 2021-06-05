@@ -1,10 +1,10 @@
 {
-  "name": "keycloak-angular",
-  "version": "8.2.0",
+  "name": "keycloak-angular-ionic",
+  "version": "8.2.1",
   "description": "Easy Keycloak setup for Angular applications",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mauriciovigolo/keycloak-angular.git"
+    "url": "git+ssh://git@github.com:Vrael/keycloak-angular-ionic.git"
   },
   "author": {
     "name": "Mauricio Gemelli Vigolo",
@@ -15,11 +15,12 @@
   "bugs": {
     "url": "https://github.com/mauriciovigolo/keycloak-angular/issues"
   },
-  "homepage": "https://github.com/mauriciovigolo/keycloak-angular#readme",
+  "homepage": "https://github.com/Vrael/keycloak-angular-ionic",
   "keywords": [
     "angular",
     "keycloak",
     "keycloak-js",
+    "keycloak-ionic",
     "authentication",
     "authorization",
     "oauth2",
@@ -29,7 +30,7 @@
     "@angular/common": "^10 || ^11 || ^12",
     "@angular/core": "^10 || ^11 || ^12",
     "@angular/router": "^10 || ^11 || ^12",
-    "keycloak-js": "^10 || ^11 || ^12 || ^13"
+    "keycloak-ionic": "^12 || ^13"
   },
   "dependencies": {
     "tslib": "^2.0.0"

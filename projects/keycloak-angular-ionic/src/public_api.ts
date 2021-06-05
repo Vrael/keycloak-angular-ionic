@@ -17,4 +17,4 @@ export {
   KeycloakBearerInterceptor
 } from './lib/core/interceptors/keycloak-bearer.interceptor';
 export { CoreModule } from './lib/core/core.module';
-export { KeycloakAngularModule } from './lib/keycloak-angular.module';
+export { KeycloakAngularIonicModule } from './lib/keycloak-angular-ionic.module';

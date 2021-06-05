@@ -27,9 +27,9 @@
 
 ## About
 
-This library helps you to use [keycloak-js](https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter) in Angular applications providing the following features:
+This library helps you to use [keycloak-js, keycloak-ionic](https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter) in Angular applications providing the following features:
 
-- A **Keycloak Service** which wraps the `keycloak-js` methods to be used in Angular, giving extra
+- A **Keycloak Service** which wraps the `keycloak-ionic` which is a fork from `keycloak-js` methods to be used in Angular, giving extra
   functionalities to the original functions and adding new methods to make it easier to be consumed by
   Angular applications.
 - Generic **AuthGuard implementation**, so you can customize your own AuthGuard logic inheriting the authentication logic and the roles load.
@@ -43,18 +43,17 @@ This library helps you to use [keycloak-js](https://www.keycloak.org/docs/latest
 Run the following command to install both Keycloak Angular and the official Keycloak client library:
 
 ```sh
-npm install keycloak-angular keycloak-js
+npm install keycloak-angular-ionic
 ```
 
-Note that `keycloak-js` is a peer dependency of Keycloak Angular. This change allows greater flexibility of choosing the right version of the Keycloak client version for your project.
+Note that `keycloak-js` is included with the capacitor and capacitor-native modifications.
 
 ### Versions
 
-| Angular     | keycloak-angular | keycloak-js               | Support             |
+| Angular     | keycloak-angular | keycloak-ionic            | Support             |
 | :---------: | :--------------: | :-----------------------: | :-----------------: |
-| 11.x - 12.x | 8.2.x            | 10 - 13                   | Bugs / New Features |
-| 10.x        | 8.x.x            | 10 - 11                   | Bugs                |
-|  9.x        | 7.3.x            | 3.4.3 - 10 (excluding v7) | Bugs                |
+| 11.x - 12.x | 8.2.x            | 12 - 13                   | Bugs / New Features |
+
 
 We try to support the same Angular versions that are [supported](https://angular.io/guide/releases#support-policy-and-schedule) by the Angular team. That said, it's always best to keep up to date with the latest version of Angular for optimal support.
 

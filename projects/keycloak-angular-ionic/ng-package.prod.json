@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/keycloak-angular",
+  "dest": "../../dist/keycloak-angular-ionic",
   "deleteDestPath": true,
   "lib": {
     "entryFile": "src/public_api.ts",
@@ -8,5 +8,5 @@
       "keycloak-js": "Keycloak"
     }
   },
-  "allowedNonPeerDependencies": ["keycloak-js"]
+  "allowedNonPeerDependencies": ["tslib", "keycloak-js"]
 }

@@ -9,8 +9,10 @@
 import { NgModule } from '@angular/core';
 
 import { CoreModule } from './core/core.module';
+import { KeycloakBearerInterceptor, KeycloakService } from '../public_api';
 
 @NgModule({
-  imports: [CoreModule]
+  imports: [CoreModule],
+  providers: [KeycloakService, KeycloakBearerInterceptor]
 })
-export class KeycloakAngularModule {}
+export class KeycloakAngularIonicModule {}

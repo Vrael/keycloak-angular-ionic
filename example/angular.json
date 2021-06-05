@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "keycloak-angular-example": {
+    "keycloak-angular-ionic-example": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -57,7 +57,7 @@
             "sourceMap": true,
             "optimization": false,
             "namedChunks": true,
-            "allowedCommonJsDependencies": ["keycloak-js"]
+            "allowedCommonJsDependencies": ["keycloak-js", "keycloak-ionic"]
           },
           "configurations": {
             "production": {
